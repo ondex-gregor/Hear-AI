@@ -1,0 +1,12 @@
+[project]
+name = "hear-ai"
+version = "1.3.0"
+description = "Ditado local por voz (Whisper offline) para Windows"
+requires-python = ">=3.14"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = [
+    "slow: testes que carregam o modelo Whisper (lentos)",
+]

@@ -1,0 +1,26 @@
+# Ambiente e dependências
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Modelos Whisper (grandes, baixados localmente)
+models/
+
+# Áudio grande / gravações (as fixtures de teste pequenas são versionadas)
+*.wav
+!tests/fixtures/*.wav
+tests/fixtures/longas/
+spool/
+*.pcm
+
+# Segredos, logs e dados locais do usuário
+.env
+*.log
+logs/
+historico/
+config.json
+config.local.json
+bolha.json
+bolha.tmp
+vocabulario.json
