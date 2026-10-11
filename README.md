@@ -1,6 +1,6 @@
 # Hear AI — local voice dictation for Windows
 
-![Recents window](docs/img/marca-recentes.png)
+<img src="docs/img/marca-recentes.png" alt="Recents window" width="380">
 
 Hold **Ctrl+Alt+H**, speak, and release: the text appears wherever your cursor is. Transcription runs on your own PC (local [faster-whisper](https://github.com/SYSTRAN/faster-whisper)), with no internet connection and no telemetry.
 
